@@ -2,7 +2,7 @@
   "dependencies": {
     "eventful-node": "^1.1.1",
     "inquirer": "^5.2.0",
-    "pg": "^7.12.1"
+    "pg": "^8.4.0"
   },
   "scripts": {
     "start": "node index.js"
