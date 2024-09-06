@@ -43,9 +43,9 @@
   },
   "dependencies": {
     "git-format-staged": "^2.1.0",
-    "mrm": "^2.1.1",
+    "mrm": "^3.0.0",
     "precise-commits": "^1.0.2",
-    "pretty-quick": "^2.0.1"
+    "pretty-quick": "^3.3.0"
   },
   "husky": {
     "hooks": {
