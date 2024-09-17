@@ -1,0 +1,38 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hawk:20160119':
+    - eventful-node > unirest > request > hawk:
+        patched: '2024-09-17T03:56:14.956Z'
+        id: 'npm:hawk:20160119'
+        path: eventful-node > unirest > request > hawk
+  'npm:http-signature:20150122':
+    - eventful-node > unirest > request > http-signature:
+        patched: '2024-09-17T03:56:14.956Z'
+        id: 'npm:http-signature:20150122'
+        path: eventful-node > unirest > request > http-signature
+  'npm:mime:20170907':
+    - eventful-node > unirest > mime:
+        patched: '2024-09-17T03:56:14.956Z'
+        id: 'npm:mime:20170907'
+        path: eventful-node > unirest > mime
+    - eventful-node > unirest > form-data > mime:
+        patched: '2024-09-17T03:56:14.956Z'
+        id: 'npm:mime:20170907'
+        path: eventful-node > unirest > form-data > mime
+    - eventful-node > unirest > request > form-data > mime:
+        patched: '2024-09-17T03:56:14.956Z'
+        id: 'npm:mime:20170907'
+        path: eventful-node > unirest > request > form-data > mime
+  'npm:request:20160119':
+    - eventful-node > unirest > request:
+        patched: '2024-09-17T03:56:14.956Z'
+        id: 'npm:request:20160119'
+        path: eventful-node > unirest > request
+  'npm:tunnel-agent:20170305':
+    - eventful-node > unirest > request > tunnel-agent:
+        patched: '2024-09-17T03:56:14.956Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: eventful-node > unirest > request > tunnel-agent
