@@ -2,9 +2,13 @@
   "dependencies": {
     "eventful-node": "^1.1.1",
     "inquirer": "^5.2.0",
-    "pg": "^7.12.1"
+    "pg": "^7.12.1",
+    "@snyk/protect": "latest"
   },
   "scripts": {
-    "start": "node index.js"
-  }
+    "start": "node index.js",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
